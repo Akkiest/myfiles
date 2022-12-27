@@ -65,5 +65,17 @@ header .inner .insta-info{
     background-color: black;
     color: white;
     font-size: 2.5rem;
+}
 
+@media only screen and (max-width:700px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 7px;
+    }
+    .look{
+        width: 70%;
+        margin:0 auto;
+    }
 }
